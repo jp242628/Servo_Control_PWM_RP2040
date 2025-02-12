@@ -100,7 +100,7 @@ int main()
             sleep_ms(ATRASO_SUAVE_MS); // Atraso para movimentação suave
         }
 
-        // Movimentação de 180 a 0 grgitaus (2400 µs a 500 µs)
+        // Movimentação de 180 a 0 graus (2400 µs a 500 µs)
         for (uint ciclo_us = 2400; ciclo_us >= 500; ciclo_us -= INCREMENTO_US)
         {
             definir_ciclo_ativo_us(PINO_SERVO, ciclo_us); // Define o ciclo ativo
