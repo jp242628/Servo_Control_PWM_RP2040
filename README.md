@@ -84,21 +84,11 @@ Este projeto utiliza o microcontrolador Raspberry Pi Pico para controlar um serv
 ### Passos para Compilar e Executar
 1. Clone o repositório:
    ```sh
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
+   git clone https://github.com/jp242628/Servo_Control_PWM_RP2040.git
+   cd Servo_Control_PWM_RP2040
    ```
 
-2. Configure o ambiente de build:
-   ```sh
-   mkdir build
-   cd build
-   cmake ..
-   ```
-
-3. Compile o código:
-   ```sh
-   make
-   ```
+2. Compile e carregue o código no Raspberry Pi Pico utilizando o ambiente de desenvolvimento de sua preferência.
 
 4. Carregue o binário gerado no Raspberry Pi Pico.
 
